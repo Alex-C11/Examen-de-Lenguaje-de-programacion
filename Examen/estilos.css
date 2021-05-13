@@ -1,0 +1,46 @@
+#calculadora{
+	width: 250px;
+	height: auto; overflow: hidden;
+	border: 1px solid;
+	margin: auto;
+	border-radius: 15px;
+	background-color: #e3e7f2;
+	text-align: center;
+	background-image:url(color.png);
+  	background-repeat:no-repeat;
+  	background-position:center; 
+}
+
+#calculadora #numero{
+	width: 200px; border: 0px solid;
+	text-align: center;
+	float: right;
+	padding-right: 30px;
+}
+
+#calculadora #numeros{
+	width: 200px; border: 0px solid;
+	text-align: center;
+	float: right;
+	padding-right: 30px;
+	padding-top: 10px;
+	
+}
+.boton{
+	background-image:url(resultado.png);
+  	background-repeat:no-repeat;
+  	height:25px;
+  	width:70px;
+  	background-position:center;
+}
+.boton:hover{
+	background: #ffff;
+}
+
+#calculadora #resultado{
+	width: 200px; border: 0px solid;
+	text-align: center;
+	float: right;
+	padding-right: 30px;
+	padding-top: 10px;
+}
